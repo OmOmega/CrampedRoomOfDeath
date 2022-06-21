@@ -1,5 +1,5 @@
 {
-  "__version__": "1.0.5",
+  "__version__": "1.0.6",
   "modules": {
     "cache": {
       "base": {
@@ -90,15 +90,23 @@
       },
       "marionette": {
         "_value": true
+      },
+      "animation": {
+        "_value": true
+      },
+      "skeletal-animation": {
+        "_value": true
       }
     },
     "includeModules": [
       "2d",
+      "animation",
       "base",
       "gfx-webgl",
       "gfx-webgl2",
       "marionette",
       "profiler",
+      "skeletal-animation",
       "tween",
       "ui"
     ],
